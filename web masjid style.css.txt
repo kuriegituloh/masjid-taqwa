@@ -1,0 +1,31 @@
+GNU nano 8.2             style.css             Modified
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0077cc;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #0077cc;
+}                                                          /* Untuk layar besar */                                    @media (min-width: 768px) {
+    nav {
+        font-size: 20px;
+    }
+}
+
+/* Untuk layar kecil */
+@media (max-width: 768px) {
+    nav {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+    }
